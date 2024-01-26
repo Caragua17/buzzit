@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "types": [
+      "bun-types"
+    ],
     "lib": ["ESNext"],
     "target": "ESNext",
     "module": "ESNext",
@@ -17,6 +20,7 @@
     "skipLibCheck": true,
     "strict": true,
     "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true
   }
 }
